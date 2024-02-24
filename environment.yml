@@ -1,4 +1,4 @@
-name: base
+name: conservation_laws_env
 channels:
   - conda-forge
   - defaults
@@ -6,3 +6,5 @@ dependencies:
   - python=3.9
   - sage
   - jupyter
+  - pip:
+    - .
